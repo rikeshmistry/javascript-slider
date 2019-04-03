@@ -1,0 +1,20 @@
+body {
+  /* Full page gradient */
+  height: 100vh;
+  background: rgb(223, 170, 44);
+  background: linear-gradient(0deg, rgba(223, 170, 44, 1) 0%, rgba(253, 107, 45, 1) 100%);
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

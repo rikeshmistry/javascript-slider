@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
 body {
   /* Full page gradient */
   height: 100vh;
   background: rgb(223, 170, 44);
   background: linear-gradient(0deg, rgba(223, 170, 44, 1) 0%, rgba(253, 107, 45, 1) 100%);
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+}
+
+.circle {
+  /* Creating a Circle in CSS */
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  /* Treats as a text element or use margin: 0 auto; */
+  display: inline-block;
+}
+
+h1 {
+  font-size: 46px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 5vmin;
+  /* vmin is related to the Viewport to optimise for Mobile and Web together  */
 }
 
 section {
@@ -10,6 +34,18 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+.button {
+  /* Icons from fontawesome are actually fonts & so the change the styles we need to use font-size, font-weight, color etc */
+  font-size: 40px;
+  font-size: 7vmin;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 20px;
 }
 
 footer {
@@ -17,4 +53,10 @@ footer {
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 650px) {
+  .button {
+    font-size: 30px;
+  }
 }

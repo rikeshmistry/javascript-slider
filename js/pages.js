@@ -23,7 +23,7 @@
 
 const pages = [
   {
-    content: "a London-based Creative Guy!",
+    content: "a London-based Creative!",
     background: "linear-gradient(0deg, rgba(223, 170, 44, 1) 0%, rgba(253, 107, 45, 1) 100%)",
     circle: "#ffffff",
    },
@@ -33,12 +33,12 @@ const pages = [
     circle: "#cd7f32 ",
    },
    {
-    content: "and learning to become a Junior Web Developer",
+    content: "learning to become a Junior Web Developer",
     background: "linear-gradient(0deg, rgba(223,170,44,1) 0%, rgba(253,107,45,1) 25%)",
     circle: "#C0C0C0",
    },
    {
-    content: `letting you <a href="https://www.rikesh-mistry.com/CV.pdf">Download His CV</a>`,
+    content: `allowing you to <a href="https://www.rikesh-mistry.com/CV.pdf">Download His CV</a>`,
     background: "linear-gradient(0deg, rgba(223,170,44,1) 0%, rgba(253,107,45,1) 0%)",
     circle: "#FFD700",
    }
